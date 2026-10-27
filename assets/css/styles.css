@@ -472,6 +472,7 @@ h1, h2, h3, p { margin-top: 0 }
   transition: color .3s var(--ease), transform .3s var(--ease);
 }
 .footer-top > div:not(.footer-brand):not(.footer-note) > a:hover { transform: translateX(3px) }
+.footer-top address { font-style: normal; font-size: 12px; line-height: 1.9; color: #aebbb4; max-width: 235px; margin: 12px 0 }
 .footer-top a:hover, .footer-bottom a:hover { color: var(--gold) }
 .footer-note .button { margin-top: 10px; font-size: 10px }
 .footer-bottom {
@@ -574,6 +575,11 @@ h1, h2, h3, p { margin-top: 0 }
   display: flex; gap: 12px; margin-top: 40px; border-top: 1px solid #d6d7ce;
   padding-top: 18px; color: var(--muted); font-size: 11px; max-width: 390px;
 }
+.contact-details { margin-top: 34px; border-top: 1px solid #d6d7ce; padding-top: 20px; max-width: 390px }
+.contact-details h3 { font: 700 11px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--ink); margin: 18px 0 8px }
+.contact-details h3:first-child { margin-top: 0 }
+.contact-details address { font-style: normal; font-size: 13px; line-height: 1.9; color: var(--muted); max-width: 320px }
+.contact-details a { font-size: 13px; color: var(--ink); text-decoration: underline }
 .contact-reassurance > span { color: var(--gold-dark); font-size: 18px }
 .contact-reassurance p { margin: 0 }
 .contact-reassurance a { text-decoration: underline }
